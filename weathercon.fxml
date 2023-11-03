@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(file:/C:/Users/ACER/Downloads/rrr.jpg); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wheatherapp1.weatherController">
+   <children>
+      <ButtonBar layoutX="162.0" layoutY="275.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Label fx:id="weather" prefHeight="18.0" prefWidth="171.0" text="Label" />
+         </buttons>
+      </ButtonBar>
+      <Text layoutX="216.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="text" layoutX="193.0" layoutY="94.0" prefHeight="40.0" prefWidth="180.0" />
+      <Button fx:id="search" layoutX="241.0" layoutY="149.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="84.0" text="Search" />
+      <Text fill="#35ff1e" layoutX="77.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="city" wrappingWidth="84.0" />
+      <Text fill="#ffdd00" layoutX="77.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="weather" />
+      <Text fill="#ffcbcb" layoutX="77.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: red;" text="temperature" />
+      <Label fx:id="city" layoutX="241.0" layoutY="233.0" prefHeight="26.0" prefWidth="200.0" text="Label" />
+      <Label fx:id="temperature" layoutX="210.0" layoutY="315.0" prefHeight="40.0" prefWidth="200.0" text="Label" />
+   </children>
+</AnchorPane>

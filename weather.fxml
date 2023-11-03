@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url(file:/C:/Users/ACER/Downloads/rrr.jpg); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ButtonBar layoutX="152.0" layoutY="265.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Label fx:id="weather" prefHeight="18.0" prefWidth="171.0" text="Label" />
+         </buttons>
+      </ButtonBar>
+      <Text layoutX="206.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather " AnchorPane.rightAnchor="249.455078125" AnchorPane.topAnchor="14.15234375">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="text" layoutX="183.0" layoutY="84.0" prefHeight="40.0" prefWidth="180.0" />
+    <Button fx:id="search" layoutX="231.0" layoutY="139.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="84.0" text="Search" />
+      <Text fill="#35ff1e" layoutX="67.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="city" wrappingWidth="84.0" />
+      <Text fill="#ffdd00" layoutX="67.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="weather" />
+      <Text fill="#ffcbcb" layoutX="67.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: red;" text="temperature" />
+      <Label fx:id="city" layoutX="231.0" layoutY="223.0" prefHeight="26.0" prefWidth="200.0" text="Label" />
+      <Label fx:id="temperature" layoutX="200.0" layoutY="305.0" prefHeight="40.0" prefWidth="200.0" text="Label" />
+   </children>
+</AnchorPane>
